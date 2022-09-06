@@ -1,39 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-
-* {
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body,
-html {
-  background-color: #000;
-  color: #fff;
-}
-
-a,
-a:hover,
-a:visited {
-  color: unset;
-  text-decoration: none;
-}
-
 .dsmeta-card {
   background-color: #283142;
   border-radius: 10px;
   padding: 30px 10px;
-}
-
-.dsmeta-container {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-#sales {
-  padding: 40px 10px;
 }
 
 .dsmeta-sales-title {
@@ -94,22 +62,6 @@ a:visited {
 .dsmeta-red-btn-container {
     display: flex;
     justify-content: center;
-}
-
-.dsmeta-red-btn {
-  height: 45px;
-  width: 45px;
-  background: rgba(255, 107, 114, 0.1);
-  border: 1px solid #ff6b72;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.dsmeta-red-btn img {
-    width: 19px;
 }
 
 .show576 {
