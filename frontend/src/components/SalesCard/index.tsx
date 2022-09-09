@@ -75,7 +75,7 @@ function SalesCard() {
                       <th className="show992">{sale.visited}</th>
                       <th className="show992">{sale.deals}</th>
                       <th>{sale.amount.toFixed(2)}</th>
-                      <th><NotificationButton /></th>
+                      <th><NotificationButton saleId={sale.id} /></th>
                     </tr>
                   );
                 })
